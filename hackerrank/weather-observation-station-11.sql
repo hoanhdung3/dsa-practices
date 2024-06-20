@@ -1,0 +1,1 @@
+SELECT DISTINCT CITY FROM STATION WHERE NOT CITY REGEXP('^[a,e,i,o,u].*[a,e,i,o,u]$');
