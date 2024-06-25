@@ -1,0 +1,1 @@
+SELECT IF(GRADE < 8, NULL, Name), Grade, Marks FROM Students INNER JOIN Grades ON Marks BETWEEN Min_Mark AND Max_Mark ORDER BY Grade DESC, Name;
